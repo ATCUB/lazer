@@ -138,4 +138,4 @@ class laserAvoid:
 if __name__ == '__main__':
     rospy.init_node('laser_Avoidance', anonymous=False)
     tracker = laserAvoid()
-    rospy.spin()
+    rospy.spin()    #lazer版本0.0.1
